@@ -3,12 +3,14 @@ Arithmetic expression evaluator for Java
 
 ### Usage
 
-`// Instantiate an Evaluator`
-`final Evaluator evaluator = Evaluator.create();`
-`// Pass String with expression to be interpreted`
-`final double meaningOfLife = evaluator.evaluate( "37 + 5" );`
-`// Yields 42.0`
-`System.out.println( meaningOfLife );` 
+```java
+// Instantiate an Evaluator
+final Evaluator evaluator = Evaluator.create();
+// Pass String with expression to be interpreted
+final double meaningOfLife = evaluator.evaluate( "37 + 5" );
+// Yields 42.0
+System.out.println( meaningOfLife );
+```
 
 ### Running Tests
 
