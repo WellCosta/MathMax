@@ -9,9 +9,9 @@ Arithmetic expression evaluator for Java
 // Instantiate an Evaluator
 final Evaluator evaluator = Evaluator.create();
 // Pass String with expression to be interpreted
-final double meaningOfLife = evaluator.evaluate( "37 + 5" );
+final double answerToUniverse = evaluator.evaluate( "6 * 9" );
 // Yields 42.0
-System.out.println( meaningOfLife );
+System.out.println( answerToUniverse );
 ```
 
 ### Running Tests
