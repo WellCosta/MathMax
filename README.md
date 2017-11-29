@@ -10,7 +10,7 @@ Arithmetic expression evaluator for Java
 final Evaluator evaluator = Evaluator.create();
 // Pass String with expression to be interpreted
 final double answerToUniverse = evaluator.evaluate( "6 * 9" );
-// Yields 42.0
+// Yields 54.0 (which is 42.0 is base 13)
 System.out.println( answerToUniverse );
 ```
 
